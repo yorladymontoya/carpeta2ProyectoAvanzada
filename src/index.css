@@ -1,0 +1,40 @@
+body {
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+backdrop-filter: blur(1.5rem);
+
+
+}
+
+.form{
+    background: rgb(211, 211, 211);
+    border: 2px solid steelblue;
+    border-radius: 1rem;
+    
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.contra{
+  margin-top: 1em;
+  margin-bottom: 13px;
+
+}
+.select{
+    width: 200px;
+    border-radius: 3px;
+    border: solid 1px;
+    border-color: #abb0b4;
+    color: #5b6774;
+    height: 49px;
+    padding: 3px;
+    padding-left: 7px;
+    
+}
+
