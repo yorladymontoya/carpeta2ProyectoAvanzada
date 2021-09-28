@@ -10,10 +10,11 @@ export const useStyles = makeStyles({
    
   },
   box:{
-    backgroundColor: 'peru',
+    backgroundColor: '#37474f',
     display:'flex',
     justifyContent:'flex-end',
     marginBottom: '52px',
+    color:'white',
   },
   avatar:{
     backgroundColor: 'green',
@@ -25,9 +26,10 @@ export const useStyles = makeStyles({
   },
   texto:{
     marginLeft:'3px',
+    color:'white',
   },
   body:{
     margin:'0',
-  }
+  },
 
 });
