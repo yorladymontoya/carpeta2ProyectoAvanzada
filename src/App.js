@@ -11,6 +11,7 @@ import RegisterForm from './componentes/Register/RegisterForm';
 import HomeUser from './componentes/homeUser/HomeUser.jsx';
 import AccountMenu from "./componentes/homeUser/NavBar.jsx";
 import Footer from "./componentes/shared/FooterVista.jsx";
+import TemporaryDrawer from './componentes/homeUser/DrawerUser';
 
 
 const App = () => {
@@ -25,8 +26,11 @@ const App = () => {
            <RegisterForm/>
         </Route>
         <Route path="/HomeUser">
-          <AccountMenu/>
-           <HomeUser/>
+          <div>
+            <AccountMenu/>
+            <HomeUser/>
+            <TemporaryDrawer/>
+           </div>
            <Footer/>
         </Route>
      
